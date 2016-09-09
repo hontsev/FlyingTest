@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextureView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/textureView"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_alignLeft="@+id/lngText"
+            android:layout_alignStart="@+id/lngText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="飞行器空闲"
+        android:id="@+id/nowStatusView"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10.0dip"
+
+        style="@style/layout_horizontal"
+        android:layout_weight="1"
+
+        android:clickable="true">
+    <LinearLayout
+        android:id="@+id/mainContent"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10.0dip"
+
+        style="@style/layout_horizontal"
+        android:layout_weight="1"
+
+        android:clickable="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="250dip"
+        android:layout_height="350dip"
+        android:layout_gravity="left"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/radius_shape"
+
+        style="@style/layout_vertical"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="当前状态："
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/lngText"
+            android:layout_alignStart="@+id/lngText"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="无数据"
+            android:id="@+id/textView10"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10.0dip"
+                android:clickable="true">
+
+
+
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5pt"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal"
+                    >
+                    <TableRow android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="设置飞行模式"
+                            android:id="@+id/flytype"
+                            android:layout_marginTop="3dp"
+                            android:background="@drawable/button"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:paddingTop="8dp"
+                            android:textColor="#ffffffff"
+                            android:textSize="16sp"
+                            android:layout_column="0" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="设置返航点"
+                            android:id="@+id/button"
+                            android:layout_marginTop="3dp"
+                            android:background="@drawable/button"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:paddingTop="8dp"
+                            android:textColor="#ffffffff"
+                            android:textSize="16sp"
+                            android:layout_column="0" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="设置飞行速度"
+                            android:id="@+id/button_speed"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/button"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:paddingTop="8dp"
+                            android:textColor="#ffffffff"
+                            android:textSize="16sp"
+                            android:layout_column="0" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="读取Excel"
+                            android:id="@+id/button2"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/button"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:paddingTop="8dp"
+                            android:textColor="#ffffffff"
+                            android:textSize="16sp"
+                            android:layout_column="0" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="上传任务点"
+                            android:id="@+id/btn_prepare"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/button"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:paddingTop="8dp"
+                            android:textColor="#ffffffff"
+                            android:textSize="16sp"
+                            android:layout_column="0" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="开始飞行任务"
+                            android:id="@+id/btn_start"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/button"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:paddingTop="8dp"
+                            android:textColor="#ffffffff"
+                            android:textSize="16sp"
+                            android:layout_alignTop="@+id/btn_prepare"
+                            android:layout_centerHorizontal="true"
+                            android:layout_column="0" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="暂停飞行任务"
+                            android:id="@+id/btn_pause"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/button"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:paddingTop="8dp"
+                            android:textColor="#ffffffff"
+                            android:textSize="16sp"
+                            android:layout_below="@+id/btn_start"
+                            android:layout_toRightOf="@+id/textView3"
+                            android:layout_toEndOf="@+id/textView3"
+                            android:layout_column="0" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="结束任务并降落"
+                            android:id="@+id/btn_stop"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/button"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:paddingTop="8dp"
+                            android:textColor="#ffffffff"
+                            android:textSize="16sp"
+                            android:layout_alignTop="@+id/btn_resume"
+                            android:layout_toRightOf="@+id/btn_resume"
+                            android:layout_toEndOf="@+id/btn_resume"
+                            android:layout_column="0" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="中止降落过程"
+                            android:id="@+id/btn_nostop"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/button"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:paddingTop="8dp"
+                            android:textColor="#ffffffff"
+                            android:textSize="16sp"
+                            android:layout_alignTop="@+id/btn_resume"
+                            android:layout_toRightOf="@+id/btn_resume"
+                            android:layout_toEndOf="@+id/btn_resume"
+                            android:layout_column="0" />
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="420dip"
+        android:layout_height="200dip"
+
+        android:layout_gravity="left|bottom"
+        android:layout_alignParentBottom="true"
+
+        style="@style/layout_vertical"
+
+        android:clickable="true">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="-"
+            android:id="@+id/btn_showList"
+            android:background="@drawable/button"
+            android:paddingBottom="1dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="1dp"
+            android:textColor="#ffffffff"
+            android:textSize="30sp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout1"
+
+        android:layout_gravity="left|bottom"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/radius_shape"
+
+        style="@style/layout_vertical"
+
+        android:clickable="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="任务点列表："
+            android:id="@+id/textView11"
+            android:layout_alignTop="@+id/textView8"
+            android:layout_alignRight="@+id/btn_resume"
+            android:layout_alignEnd="@+id/btn_resume"
+            android:layout_gravity="center_horizontal" />
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true"
+            android:fadeScrollbars="false"
+            android:id="@+id/scrollView" >
+
+            <GridView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:numColumns="1"
+                android:id="@+id/gridView" />
+
+        </ScrollView>
+    </LinearLayout>
+    </LinearLayout>
+    </FrameLayout>

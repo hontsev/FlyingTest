@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\iframe_960_3s.h264",
+        "source": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\raw\\iframe_960_3s.h264"
+    },
+    {
+        "merged": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\gimbal_param_infos",
+        "source": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\raw\\gimbal_param_infos"
+    },
+    {
+        "merged": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\iframe_1280_3s.h264",
+        "source": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\raw\\iframe_1280_3s.h264"
+    },
+    {
+        "merged": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\dock.ogg",
+        "source": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\raw\\dock.ogg"
+    },
+    {
+        "merged": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\effect_tick.ogg",
+        "source": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\raw\\effect_tick.ogg"
+    },
+    {
+        "merged": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\iframe_1280_ins.h264",
+        "source": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\raw\\iframe_1280_ins.h264"
+    },
+    {
+        "merged": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\flyc_param_infos",
+        "source": "E:\\JavaProjects\\FlyingTest\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\raw\\flyc_param_infos"
+    }
+]
